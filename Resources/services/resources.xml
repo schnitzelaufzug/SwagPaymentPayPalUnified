@@ -47,5 +47,15 @@
                  public="true">
             <argument type="service" id="paypal_unified.client_service"/>
         </service>
+
+        <service id="paypal_unified.catalog_product_resource"
+                 class="SwagPaymentPayPalUnified\PayPalBundle\Resources\Subscription\CatalogProductResource">
+            <argument type="service" id="paypal_unified.client_service"/>
+        </service>
+
+        <service id="paypal_unified.plan_resource"
+                 class="SwagPaymentPayPalUnified\PayPalBundle\Resources\Subscription\PlanResource">
+            <argument type="service" id="paypal_unified.client_service"/>
+        </service>
     </services>
 </container>
