@@ -10,12 +10,12 @@ namespace SwagPaymentPayPalUnified\PayPalBundle;
 
 class RequestUri
 {
-    const PAYMENT_RESOURCE = 'payments/payment';
-    const WEBHOOK_RESOURCE = 'notifications/webhooks';
-    const TOKEN_RESOURCE = 'oauth2/token';
-    const SALE_RESOURCE = 'payments/sale';
-    const REFUND_RESOURCE = 'payments/refund';
-    const AUTHORIZATION_RESOURCE = 'payments/authorization';
-    const CAPTURE_RESOURCE = 'payments/capture';
-    const ORDER_RESOURCE = 'payments/orders';
+    public const PAYMENT_RESOURCE = 'payments/payment';
+    public const WEBHOOK_RESOURCE = 'notifications/webhooks';
+    public const TOKEN_RESOURCE = 'oauth2/token';
+    public const SALE_RESOURCE = 'payments/sale';
+    public const REFUND_RESOURCE = 'payments/refund';
+    public const AUTHORIZATION_RESOURCE = 'payments/authorization';
+    public const CAPTURE_RESOURCE = 'payments/capture';
+    public const ORDER_RESOURCE = 'payments/orders';
 }

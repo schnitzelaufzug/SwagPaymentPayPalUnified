@@ -24,7 +24,7 @@ class VoidServiceTest extends TestCase
     use DatabaseTestCaseTrait;
     use OrderTrait;
 
-    const CURRENCY = CaptureServiceTest::CURRENCY;
+    public const CURRENCY = CaptureServiceTest::CURRENCY;
 
     /**
      * @before

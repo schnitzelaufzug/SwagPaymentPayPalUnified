@@ -15,7 +15,7 @@ use SwagPaymentPayPalUnified\PayPalBundle\Structs\Token;
 
 class TokenService
 {
-    const CACHE_ID = 'paypal_unified_auth_';
+    public const CACHE_ID = 'paypal_unified_auth_';
 
     /**
      * @var CacheManager

@@ -15,8 +15,8 @@ use SwagPaymentPayPalUnified\Tests\Mocks\ResultSet\VoidOrder;
 
 class OrderResourceMock extends OrderResource
 {
-    const PAYPAL_PAYMENT_ID = 'PAY-4PX53149M52862435LWUYHZX';
-    const THROW_EXCEPTION = PaymentResourceMock::THROW_EXCEPTION;
+    public const PAYPAL_PAYMENT_ID = 'PAY-4PX53149M52862435LWUYHZX';
+    public const THROW_EXCEPTION = PaymentResourceMock::THROW_EXCEPTION;
 
     public function __construct()
     {

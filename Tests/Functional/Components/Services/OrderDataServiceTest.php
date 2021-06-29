@@ -24,8 +24,8 @@ class OrderDataServiceTest extends TestCase
     use SettingsHelperTrait;
     use FixtureImportTestCaseTrait;
 
-    const ORDER_NUMBER = 99999;
-    const TEST_TRANSACTION_ID = 'FAKE-PAYPAL-TRANSACTION-ID';
+    public const ORDER_NUMBER = 99999;
+    public const TEST_TRANSACTION_ID = 'FAKE-PAYPAL-TRANSACTION-ID';
 
     public function testOrderDataServiceTestIsAvailable()
     {

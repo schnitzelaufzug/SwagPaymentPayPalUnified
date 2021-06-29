@@ -105,7 +105,14 @@
              *
              * @type array|null
              */
-            riskManagementMatchedProducts: null
+            riskManagementMatchedProducts: null,
+
+            /**
+             * Excluded esd products.
+             *
+             * @type array|null
+             */
+            esdProducts: null,
         },
 
         /**
@@ -146,7 +153,10 @@
          */
         isProductExcludedByRiskManagement: function() {
             var me = this,
-                productNumbers = me.opts.riskManagementMatchedProducts;
+                productNumbers = [].concat(
+                    me.opts.riskManagementMatchedProducts,
+                    me.opts.esdProducts
+                );
 
             if (Array.isArray(productNumbers) && productNumbers.includes(me.opts.productNumber)) {
                 return true;

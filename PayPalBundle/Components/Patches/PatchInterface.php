@@ -10,8 +10,8 @@ namespace SwagPaymentPayPalUnified\PayPalBundle\Components\Patches;
 
 interface PatchInterface
 {
-    const OPERATION_ADD = 'add';
-    const OPERATION_REPLACE = 'replace';
+    public const OPERATION_ADD = 'add';
+    public const OPERATION_REPLACE = 'replace';
 
     /**
      * Returns the operation that should be triggered.

@@ -20,7 +20,7 @@ use SwagPaymentPayPalUnified\Tests\Mocks\ResultSet\GetPaymentSale;
 
 class PaymentResourceMock extends PaymentResource
 {
-    const THROW_EXCEPTION = 'throwException';
+    public const THROW_EXCEPTION = 'throwException';
 
     /**
      * @var PatchInterface[]

@@ -105,7 +105,14 @@
              *
              * @type array|null
              */
-            riskManagementMatchedProducts: null
+            riskManagementMatchedProducts: null,
+
+            /**
+             * Excluded esd products.
+             *
+             * @type array|null
+             */
+            esdProducts: null,
         },
 
         /**
@@ -117,6 +124,14 @@
             var me = this;
 
             me.applyDataAttributes();
+
+// TODO: REMOVE AFTER DEBUG
+console.dir('context');
+        for(var i=0; i < me.opts.esdProducts.length; i++) {
+            console.dir(me.opts.esdProducts[i]);
+        }
+
+// TODO: REMOVE AFTER DEBUG
 
             if (me.isProductExcludedByRiskManagement()) {
                 return;
@@ -146,7 +161,10 @@
          */
         isProductExcludedByRiskManagement: function() {
             var me = this,
-                productNumbers = me.opts.riskManagementMatchedProducts;
+                productNumbers = [].concat(
+                    me.opts.riskManagementMatchedProducts,
+                    me.opts.esdProducts
+                );
 
             if (Array.isArray(productNumbers) && productNumbers.includes(me.opts.productNumber)) {
                 return true;

@@ -22,7 +22,7 @@ use SwagPaymentPayPalUnified\PayPalBundle\Structs\Payment\Transactions\ShipmentD
 
 class PlusPaymentBuilderService extends PaymentBuilderService
 {
-    const EDD_ATTRIBUTE_COLUMN_NAME = 'swag_paypal_estimated_delivery_date_days';
+    public const EDD_ATTRIBUTE_COLUMN_NAME = 'swag_paypal_estimated_delivery_date_days';
 
     /**
      * @var CrudService

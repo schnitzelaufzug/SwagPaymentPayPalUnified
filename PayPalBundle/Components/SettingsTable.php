@@ -13,8 +13,8 @@ namespace SwagPaymentPayPalUnified\PayPalBundle\Components;
  */
 class SettingsTable
 {
-    const GENERAL = 'general';
-    const EXPRESS_CHECKOUT = 'express';
-    const INSTALLMENTS = 'installments';
-    const PLUS = 'plus';
+    public const GENERAL = 'general';
+    public const EXPRESS_CHECKOUT = 'express';
+    public const INSTALLMENTS = 'installments';
+    public const PLUS = 'plus';
 }

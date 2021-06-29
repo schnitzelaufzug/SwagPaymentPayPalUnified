@@ -23,10 +23,10 @@ class PaymentDetailsServiceTest extends TestCase
 {
     use DatabaseTestCaseTrait;
 
-    const ORDER_ID = 'orderId';
-    const AUTHORIZATION_ID = 'authorizationId';
-    const SALE_ID = 'saleId';
-    const LEGACY_ID = 'legacyId';
+    public const ORDER_ID = 'orderId';
+    public const AUTHORIZATION_ID = 'authorizationId';
+    public const SALE_ID = 'saleId';
+    public const LEGACY_ID = 'legacyId';
 
     public function testGetPaymentDetailsOrder()
     {

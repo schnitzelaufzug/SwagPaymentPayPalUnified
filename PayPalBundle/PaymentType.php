@@ -10,9 +10,9 @@ namespace SwagPaymentPayPalUnified\PayPalBundle;
 
 class PaymentType
 {
-    const PAYPAL_CLASSIC = 'PayPalClassic';
-    const PAYPAL_PLUS = 'PayPalPlus';
-    const PAYPAL_INVOICE = 'PayPalPlusInvoice';
-    const PAYPAL_EXPRESS = 'PayPalExpress';
-    const PAYPAL_SMART_PAYMENT_BUTTONS = 'PayPalSmartPaymentButtons';
+    public const PAYPAL_CLASSIC = 'PayPalClassic';
+    public const PAYPAL_PLUS = 'PayPalPlus';
+    public const PAYPAL_INVOICE = 'PayPalPlusInvoice';
+    public const PAYPAL_EXPRESS = 'PayPalExpress';
+    public const PAYPAL_SMART_PAYMENT_BUTTONS = 'PayPalSmartPaymentButtons';
 }

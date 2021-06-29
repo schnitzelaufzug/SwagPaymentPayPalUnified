@@ -10,6 +10,6 @@ namespace SwagPaymentPayPalUnified\PayPalBundle\Structs\Payment\Instruction;
 
 class PaymentInstructionType
 {
-    const INVOICE = 'PAY_UPON_INVOICE';
-    const BANK_TRANSFER = 'MANUAL_BANK_TRANSFER';
+    public const INVOICE = 'PAY_UPON_INVOICE';
+    public const BANK_TRANSFER = 'MANUAL_BANK_TRANSFER';
 }

@@ -17,7 +17,7 @@ class PaymentMethodProvider
     /**
      * The technical name of the unified payment method.
      */
-    const PAYPAL_UNIFIED_PAYMENT_METHOD_NAME = 'SwagPaymentPayPalUnified';
+    public const PAYPAL_UNIFIED_PAYMENT_METHOD_NAME = 'SwagPaymentPayPalUnified';
 
     /**
      * @var ModelManager|null

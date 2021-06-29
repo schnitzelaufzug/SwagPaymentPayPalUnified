@@ -14,7 +14,7 @@ final class BasketIdWhitelist
      * Add a value here to always use the simple validator whenever a basket is being validated.
      * This is important, because not all payments may generate a basket unique id as seen in a regular paypal payment.
      */
-    const WHITELIST_IDS = [
+    public const WHITELIST_IDS = [
         'PayPalExpress' => 'express',
         'PayPalPlus' => 'plus',
     ];

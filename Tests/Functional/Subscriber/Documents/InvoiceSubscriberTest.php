@@ -25,14 +25,14 @@ class InvoiceSubscriberTest extends TestCase
     use DatabaseTestCaseTrait;
     use PayPalUnifiedPaymentIdTrait;
 
-    const TEST_ORDER_NUMBER = 20001;
-    const TEST_AMOUNT_VALUE = 50.5;
-    const TEST_DUE_DATE = '01-01-2000';
-    const TEST_REFERENCE = 'TEST_REFERENCE_NUMBER';
-    const TEST_BANK_IBAN = 'TEST_IBAN';
-    const TEST_BANK_BIC = 'TEST_BIC';
-    const TEST_BANK_BANK_NAME = 'TEST_BANK';
-    const TEST_BANK_ACCOUNT_HOLDER = 'TEST_ACCOUNT_HOLDER';
+    public const TEST_ORDER_NUMBER = 20001;
+    public const TEST_AMOUNT_VALUE = 50.5;
+    public const TEST_DUE_DATE = '01-01-2000';
+    public const TEST_REFERENCE = 'TEST_REFERENCE_NUMBER';
+    public const TEST_BANK_IBAN = 'TEST_IBAN';
+    public const TEST_BANK_BIC = 'TEST_BIC';
+    public const TEST_BANK_BANK_NAME = 'TEST_BANK';
+    public const TEST_BANK_ACCOUNT_HOLDER = 'TEST_ACCOUNT_HOLDER';
 
     public function testConstruct()
     {

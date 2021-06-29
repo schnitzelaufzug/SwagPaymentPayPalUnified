@@ -15,8 +15,8 @@ use SwagPaymentPayPalUnified\Tests\Mocks\ResultSet\VoidAuthorization;
 
 class AuthorizationResourceMock extends AuthorizationResource
 {
-    const PAYPAL_PAYMENT_ID = 'PAYID-LWUWSTI3EB47859H72718944';
-    const THROW_EXCEPTION = PaymentResourceMock::THROW_EXCEPTION;
+    public const PAYPAL_PAYMENT_ID = 'PAYID-LWUWSTI3EB47859H72718944';
+    public const THROW_EXCEPTION = PaymentResourceMock::THROW_EXCEPTION;
 
     public function __construct()
     {

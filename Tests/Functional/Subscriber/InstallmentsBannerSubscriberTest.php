@@ -23,7 +23,7 @@ class InstallmentsBannerSubscriberTest extends TestCase
     use DatabaseTestCaseTrait;
     use SettingsHelperTrait;
 
-    const CLIENT_ID = 'testClientId';
+    public const CLIENT_ID = 'testClientId';
 
     public function testCanBeCreated()
     {

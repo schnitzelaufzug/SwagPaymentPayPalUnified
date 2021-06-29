@@ -24,13 +24,13 @@ class SettingsServiceTest extends TestCase
     use DatabaseTestCaseTrait;
     use SettingsHelperTrait;
 
-    const SHOP_ID = 1;
-    const CLIENT_ID = 'TEST_CLIENT_ID';
-    const CLIENT_SECRET = 'TEST_CLIENT_SECRET';
-    const SANDBOX = true;
-    const SHOW_SIDEBAR_LOGO = false;
-    const PLUS_ACTIVE = true;
-    const ACTIVE = true;
+    public const SHOP_ID = 1;
+    public const CLIENT_ID = 'TEST_CLIENT_ID';
+    public const CLIENT_SECRET = 'TEST_CLIENT_SECRET';
+    public const SANDBOX = true;
+    public const SHOW_SIDEBAR_LOGO = false;
+    public const PLUS_ACTIVE = true;
+    public const ACTIVE = true;
 
     public function testServiceAvailable()
     {

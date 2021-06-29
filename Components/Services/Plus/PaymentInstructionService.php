@@ -14,7 +14,7 @@ use SwagPaymentPayPalUnified\PayPalBundle\Structs\Payment\PaymentInstruction;
 
 class PaymentInstructionService
 {
-    const INVOICE_INSTRUCTION_DESCRIPTION = 'Pay Upon Invoice Payment Instructions';
+    public const INVOICE_INSTRUCTION_DESCRIPTION = 'Pay Upon Invoice Payment Instructions';
 
     /**
      * @var ModelManager

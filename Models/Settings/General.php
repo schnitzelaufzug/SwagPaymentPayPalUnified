@@ -17,8 +17,8 @@ use Shopware\Components\Model\ModelEntity;
  */
 class General extends ModelEntity
 {
-    const MERCHANT_LOCATION_GERMANY = 'germany';
-    const MERCHANT_LOCATION_OTHER = 'other';
+    public const MERCHANT_LOCATION_GERMANY = 'germany';
+    public const MERCHANT_LOCATION_OTHER = 'other';
 
     /**
      * @var int

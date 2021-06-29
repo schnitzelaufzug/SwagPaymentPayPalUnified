@@ -12,7 +12,7 @@ use SwagPaymentPayPalUnified\PayPalBundle\Structs\Payment;
 
 interface PaymentBuilderInterface
 {
-    const CUSTOMER_GROUP_USE_GROSS_PRICES = 'customerGroupUseGrossPrices';
+    public const CUSTOMER_GROUP_USE_GROSS_PRICES = 'customerGroupUseGrossPrices';
 
     /**
      * The function returns an array with all parameters that are expected by the PayPal API.

@@ -12,7 +12,7 @@ use SwagPaymentPayPalUnified\PayPalBundle\Structs\Payment\Transactions\ItemList\
 
 class PaymentItemsPatch implements PatchInterface
 {
-    const PATH = '/transactions/0/item_list/items';
+    public const PATH = '/transactions/0/item_list/items';
 
     /**
      * @var Item[]

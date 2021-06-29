@@ -10,9 +10,9 @@ namespace SwagPaymentPayPalUnified\PayPalBundle\Structs\Payment\RelatedResources
 
 class ResourceType
 {
-    const SALE = 'sale';
-    const REFUND = 'refund';
-    const AUTHORIZATION = 'authorization';
-    const ORDER = 'order';
-    const CAPTURE = 'capture';
+    public const SALE = 'sale';
+    public const REFUND = 'refund';
+    public const AUTHORIZATION = 'authorization';
+    public const ORDER = 'order';
+    public const CAPTURE = 'capture';
 }

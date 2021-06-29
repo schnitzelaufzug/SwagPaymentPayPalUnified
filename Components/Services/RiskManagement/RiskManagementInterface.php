@@ -10,8 +10,8 @@ namespace SwagPaymentPayPalUnified\Components\Services\RiskManagement;
 
 interface RiskManagementInterface
 {
-    const PRODUCT_ID_SESSION_NAME = 'PayPalRiskManagementProductDetailId';
-    const CATEGORY_ID_SESSION_NAME = 'PayPalRiskManagementCategoryId';
+    public const PRODUCT_ID_SESSION_NAME = 'PayPalRiskManagementProductDetailId';
+    public const CATEGORY_ID_SESSION_NAME = 'PayPalRiskManagementCategoryId';
 
     /**
      * @param int|null $productId

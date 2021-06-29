@@ -10,6 +10,6 @@ namespace SwagPaymentPayPalUnified\PayPalBundle;
 
 class BaseURL
 {
-    const SANDBOX = 'https://api.sandbox.paypal.com/v1/';
-    const LIVE = 'https://api.paypal.com/v1/';
+    public const SANDBOX = 'https://api.sandbox.paypal.com/v1/';
+    public const LIVE = 'https://api.paypal.com/v1/';
 }

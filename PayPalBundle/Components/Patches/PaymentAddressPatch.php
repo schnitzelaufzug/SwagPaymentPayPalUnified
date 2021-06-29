@@ -12,7 +12,7 @@ use SwagPaymentPayPalUnified\PayPalBundle\Structs\Payment\Transactions\ItemList\
 
 class PaymentAddressPatch implements PatchInterface
 {
-    const PATH = '/transactions/0/item_list/shipping_address';
+    public const PATH = '/transactions/0/item_list/shipping_address';
 
     /**
      * @var ShippingAddress

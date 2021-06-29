@@ -10,7 +10,7 @@ namespace SwagPaymentPayPalUnified\PayPalBundle\Components\Patches;
 
 class PaymentOrderNumberPatch implements PatchInterface
 {
-    const PATH = '/transactions/0/invoice_number';
+    public const PATH = '/transactions/0/invoice_number';
 
     /**
      * @var string

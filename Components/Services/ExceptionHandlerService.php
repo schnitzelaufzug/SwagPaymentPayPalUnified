@@ -18,9 +18,9 @@ use SwagPaymentPayPalUnified\PayPalBundle\Structs\GenericErrorResponse;
 
 class ExceptionHandlerService implements ExceptionHandlerServiceInterface
 {
-    const DEFAULT_MESSAGE = 'An error occurred: ';
-    const LOG_MESSAGE = 'Could not %s due to a communication failure';
-    const WEBHOOK_ALREADY_EXISTS_ERROR = 'WEBHOOK_URL_ALREADY_EXISTS';
+    public const DEFAULT_MESSAGE = 'An error occurred: ';
+    public const LOG_MESSAGE = 'Could not %s due to a communication failure';
+    public const WEBHOOK_ALREADY_EXISTS_ERROR = 'WEBHOOK_URL_ALREADY_EXISTS';
 
     /**
      * @var LoggerServiceInterface

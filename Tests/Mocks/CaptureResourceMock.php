@@ -14,8 +14,8 @@ use SwagPaymentPayPalUnified\Tests\Mocks\ResultSet\RefundCapture;
 
 class CaptureResourceMock extends CaptureResource
 {
-    const PAYPAL_PAYMENT_ID = AuthorizationResourceMock::PAYPAL_PAYMENT_ID;
-    const THROW_EXCEPTION = PaymentResourceMock::THROW_EXCEPTION;
+    public const PAYPAL_PAYMENT_ID = AuthorizationResourceMock::PAYPAL_PAYMENT_ID;
+    public const THROW_EXCEPTION = PaymentResourceMock::THROW_EXCEPTION;
 
     public function __construct()
     {

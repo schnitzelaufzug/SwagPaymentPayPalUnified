@@ -12,7 +12,7 @@ use SwagPaymentPayPalUnified\PayPalBundle\Structs\Payment\Transactions\Amount;
 
 class PaymentAmountPatch implements PatchInterface
 {
-    const PATH = '/transactions/0/amount';
+    public const PATH = '/transactions/0/amount';
 
     /**
      * @var Amount

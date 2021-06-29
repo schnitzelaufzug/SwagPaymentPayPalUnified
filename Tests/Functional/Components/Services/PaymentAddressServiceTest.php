@@ -13,15 +13,15 @@ use SwagPaymentPayPalUnified\Components\Services\PaymentAddressService;
 
 class PaymentAddressServiceTest extends TestCase
 {
-    const TEST_ADDRESS_CITY = 'TEST_CITY';
-    const TEST_ADDRESS_STREET = 'TEST_STREET';
-    const TEST_ADDRESS_ZIPCODE = 'TEST_ZIPCODE';
-    const TEST_ADDRESS_FIRSTNAME = 'TEST_FIRST_NAME';
-    const TEST_ADDRESS_LASTNAME = 'TEST_LAST_NAME';
-    const TEST_ADDRESS_COUNTRY = 'DE';
-    const TEST_ADDRESS_STATE = 'NW';
-    const TEST_USER_EMAIL = 'test@example.com';
-    const TEST_ADDRESS_PHONE = '123456789';
+    public const TEST_ADDRESS_CITY = 'TEST_CITY';
+    public const TEST_ADDRESS_STREET = 'TEST_STREET';
+    public const TEST_ADDRESS_ZIPCODE = 'TEST_ZIPCODE';
+    public const TEST_ADDRESS_FIRSTNAME = 'TEST_FIRST_NAME';
+    public const TEST_ADDRESS_LASTNAME = 'TEST_LAST_NAME';
+    public const TEST_ADDRESS_COUNTRY = 'DE';
+    public const TEST_ADDRESS_STATE = 'NW';
+    public const TEST_USER_EMAIL = 'test@example.com';
+    public const TEST_ADDRESS_PHONE = '123456789';
 
     public function testServiceAvailable()
     {

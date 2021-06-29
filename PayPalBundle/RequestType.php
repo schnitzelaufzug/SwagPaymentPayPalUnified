@@ -10,10 +10,10 @@ namespace SwagPaymentPayPalUnified\PayPalBundle;
 
 class RequestType
 {
-    const GET = 'GET';
-    const POST = 'POST';
-    const PUT = 'PUT';
-    const PATCH = 'PATCH';
-    const HEAD = 'HEAD';
-    const DELETE = 'DELETE';
+    public const GET = 'GET';
+    public const POST = 'POST';
+    public const PUT = 'PUT';
+    public const PATCH = 'PATCH';
+    public const HEAD = 'HEAD';
+    public const DELETE = 'DELETE';
 }

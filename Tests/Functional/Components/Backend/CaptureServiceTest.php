@@ -25,7 +25,7 @@ class CaptureServiceTest extends TestCase
     use DatabaseTestCaseTrait;
     use OrderTrait;
 
-    const CURRENCY = 'EUR';
+    public const CURRENCY = 'EUR';
 
     /**
      * @before

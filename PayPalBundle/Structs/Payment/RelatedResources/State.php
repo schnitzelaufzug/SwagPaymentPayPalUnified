@@ -13,25 +13,25 @@ class State
     /**
      * The transaction has completed.
      */
-    const COMPLETED = 'completed';
+    public const COMPLETED = 'completed';
 
     /**
      * The transaction was partially refunded.
      */
-    const PARTIALLY_REFUNDED = 'partially_refunded';
+    public const PARTIALLY_REFUNDED = 'partially_refunded';
 
     /**
      * The transaction is pending.
      */
-    const PENDING = 'pending';
+    public const PENDING = 'pending';
 
     /**
      * The transaction was fully refunded.
      */
-    const REFUNDED = 'refunded';
+    public const REFUNDED = 'refunded';
 
     /**
      * The transaction was denied.
      */
-    const DENIED = 'denied';
+    public const DENIED = 'denied';
 }

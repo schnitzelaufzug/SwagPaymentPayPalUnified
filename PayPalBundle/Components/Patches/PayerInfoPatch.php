@@ -12,7 +12,7 @@ use SwagPaymentPayPalUnified\PayPalBundle\Structs\Payment\Payer\PayerInfo;
 
 class PayerInfoPatch implements PatchInterface
 {
-    const PATH = '/payer/payer_info';
+    public const PATH = '/payer/payer_info';
 
     /**
      * @var PayerInfo
